@@ -5,21 +5,21 @@
 </head>
 <body>
 	
-	<form>
+	<form method="GET">
 		First Name: <input type="text" name="firstname"><br>
 		Last Name: <input type="text" name="lastname"><br>
 		Email: <input type="email" name="email" required><br>
 		Password: <input type="password" name="password" min="12"><br>
 		Birthday: <input type="date" name="date"><br>
 		Gender: <br>
-		<input type="radio" name="gender">Male<br>
-		<input type="radio" name="gender">Female<br>
-		<input type="radio" name="gender">Other<br>
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>
+		<input type="radio" name="gender" value="Other">Other<br>
 		Cars: <br>
-		<select>
+		<select name="Cars">
 			<option value="Tesla" name="Tesla">Tesla</option>
 			<option value="BMW" name="BMW">BMW</option>
-			<option value="Audi" name="firstname">Audi</option>
+			<option value="Audi" name="Audi">Audi</option>
 		</select>
 	</form>
 		<input type="submit" value="Register">
